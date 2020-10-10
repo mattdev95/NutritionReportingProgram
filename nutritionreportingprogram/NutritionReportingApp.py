@@ -2,7 +2,6 @@
 EXIT_PROGRAM = 'x'
 BACK = 'b'
 
-# Reference: (Donnelly, 2018) Lists Week 9 Lecture pg15
 # this is opening the text file
 food_items = open("sample.txt", 'r')
 # calling the empty list to be our 2d list
@@ -191,7 +190,6 @@ def add_item():
     # while not equal to zero, it will keep going through the loop
     while type_value != 0:
         # if the value entered is alphabetic, then it is true and will break out of the loop
-        # reference: (McCartney, 2019 pg17,24) Lecture week 9 Strings
         # this was to prevent a space being a non alpha character
         # this replaces the space(if there is one) and replace with no space
         # and to check if its alpha
@@ -206,7 +204,6 @@ def add_item():
     while desc_value != 0:
 
         # if the value entered is alphabetic, then it is true and will break out of the loop
-        # reference: (McCartney, 2019 pg17,24) Lecture week 9 Strings
         # this was to prevent a space being a non alpha character
         # this replaces the space(if there is one) and replace with no space
         # and to check if its alpha
@@ -289,7 +286,6 @@ def create_type_list():
 
 # this will get the number of food items per list by matching with the food type with a dictionary
 # f_l is the variable name which a list of types will be passed into it
-# Reference: (Donnelly, 2018) Lists Week 10 Lecture pg9
 def meal_type_num(f_l):
     # this creates an empty dictionary
     food_types = {}
